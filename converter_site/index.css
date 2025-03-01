@@ -1,0 +1,217 @@
+/* стиль для всего контента */
+*{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	background-color: black;
+}
+body{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+p, a, span, h1, h2, h3, h4, h5, h6, input, select, option{
+	color: white;
+	text-decoration: none;
+	transition: 0.5s;
+}
+button{
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	background: blue;
+	transition: 0.5s;
+}
+img{
+	width: 300px;
+	height: 200px;
+	transition: 1s;
+}
+
+/* стиль для переходов  */
+a:hover{
+	color: blue;
+}
+button:hover{
+	color: blue;
+	background: white;
+}
+img:hover{
+	transform: scale(1.2);
+}
+
+/* СТИЛИ ДЛЯ ФАЙЛА index.html */
+
+/* HEADER */
+.header{
+	border-bottom: 1px solid white;
+	display: flex;
+}
+.sitename{
+	border: 2px solid white;
+	width: 25%;
+	justify-content: center;
+	text-align: center;
+	display: inline-block;
+}
+.sitename h4{
+	text-align: center;
+}
+
+/* CONTENT */
+.main{
+	margin-top: 5em;
+	text-align: center;
+}
+.system_count_converter, .currency_converter, .compound_interest_calculater, .mortgage_calculater{
+	border: 1px solid white;
+	border-radius: 1em;
+	display: inline-block;
+	margin: 1em;
+	width: 300px;
+	height: 320px;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.system_count_converter_header, .currency_converter_header, .mortgage_calculater_header, .compound_interest_calculater_header{
+}
+.system_count_converter_content, .currency_converter_content, .mortgage_calculater_content, .compound_interest_calculater_content{
+	overflow: hidden;
+}
+.system_count_converter_footer, .currency_converter_footer, .mortgage_calculater_footer, .compound_interest_calculater_footer{
+	border-bottom-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	padding-top: 1em;
+}
+.system_count_converter_footer button, .currency_converter_footer button, .mortgage_calculater_footer button, .compound_interest_calculater_footer button{
+	
+}
+
+.system_count_converter img, .currency_converter img, .mortgage_calculater img, .compound_interest_calculater img{
+	display: block;
+}
+
+.system_count_converter button, .currency_converter button, .mortgage_calculater button, .compound_interest_calculater button{
+	display: 10px solid gray;
+	font-size: 20px;
+}
+
+.informers{
+	margin-top: 5em;
+}
+.informer_1, .informer_2, .informer_3{
+	display: inline-block;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+/* FOOTER */
+.footer{
+	border-top: 1px solid white;
+	margin-top: 10em;
+}
+.footer p{
+	text-align: center;
+	color: white;
+}
+.logo{
+	border: 2px solid white;
+	width: 25%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 1em;
+}
+
+/* СТИЛИ ДЛЯ ФАЙЛА system_count_converter.html */
+
+/* HEADER */
+
+/* CONTENT */
+.select_system_number_from, .select_system_number_to, .enter_number, .button_calculate{
+	display: inline-block;
+}
+.output_area{
+	display: inline-block;
+}
+input{
+	border: 1px solid white;
+	font-size: 20px;
+}
+.button_calculate button, .output_area button{
+	font-size: 20px;
+	margin: 10px;
+}
+/* FOOTER */
+
+/* СТИЛИ ДЛЯ ФАЙЛА files_converter.html */
+
+/* HEADER */
+
+/* CONTENT */
+.select_file, .convert_from, .convert_to, .button_download{
+	margin-top: 20px;
+
+}
+.convert_from, .convert_to{
+	display: inline-flex;
+}
+.convert_from h3, .convert_to h3{
+	margin-right: 20px;
+}
+.convert_from select, .convert_to select{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px 100px 5px 15px;
+	background: blue;
+}
+.button_download button{
+	border: 1px solid white;
+	width: 150px;
+	height: 50px;
+}
+
+/* FOOTER */
+
+/* СТИЛИ ДЛЯ ФАЙЛА currency_converter.html */
+
+/* HEADER */
+
+/* CONTENT */
+.currency_convert{
+	margin-top: 20px;
+}
+/* FOOTER */
+
+
+/* СТИЛИ ДЛЯ ФАЙЛА compound_interest_calculater.html */
+.calculate_compound_interest{
+	padding: 20px;
+}
+.section_parameters{
+	text-align: left;
+	display: inline-flex;
+}
+.section{
+	display: inline-block;
+}
+.section h3{
+}
+.section input{
+	padding: 10px 150px 10px 15px;
+}
+.section_output{
+
+}
+.section_output button{
+	font-size: 20px;
+	margin-top: 40px;
+	text-align: center;
+}
+}
+/* HEADER */
+
+/* CONTENT */
+
+/* FOOTER */
